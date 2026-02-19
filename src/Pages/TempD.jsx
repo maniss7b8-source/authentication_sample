@@ -4,7 +4,7 @@ import "./Dashboard.css"
 import Userimg from '../assets/user_img.png'
 import { useNavigate } from 'react-router-dom'
 
-const Dashboard = () => {
+const TempD = () => {
   const navigate = useNavigate();
 
   const data=JSON.parse(localStorage.getItem("user"));
@@ -38,4 +38,4 @@ useEffect(() => {
   )
 }
 
-export default Dashboard
+export default TempD

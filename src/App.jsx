@@ -2,9 +2,9 @@ import React from 'react'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Login from './Pages/Login'
 import RegisterPage from './Pages/RegisterPage'
-import Dashboard from './Pages/dashboard'
 import ProfilePage from './Pages/ProfilePage'
-import Navbar from './Components.jsx/Navbar'
+import Dashboard from './Pages/TempD'
+
 
 const App = () => {
   return (
