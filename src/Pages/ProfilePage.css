@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.prof{
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    padding: 50px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile{
+    text-align: center;
+    padding: 50px 40px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.user{
+    height: 150px;
+    width:150px;
+    border-radius: 50%;
+    border: 4px solid rgb(4, 25, 102);
+    padding: 6px;
+    margin-bottom: 10px;
+}
+
+.user_name{
+    color: rgb(4, 25, 102);
+}
+
+.about{
+    width: 600px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 8px;
+    text-align: center;
+    color: rgb(92, 92, 96);
+}
+
+.follow{
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.follow .fol{
+    font-weight: 700;
+    color: rgb(38, 108, 237);
+    margin-bottom: 5px;
+}
+
+.forback{
+    position: absolute;
+    background-color: rgb(4, 7, 93);
+    padding:20px 20px;
+    width: 100vw;
+    text-align: right;
+}
+
+.profline{
+    text-transform:uppercase;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.profline{
+    color: blue;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+
+.goback{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.edit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profedit{
+    color: white;
+    background-color: rgb(51, 0, 255);
+    padding: 5px 8px;
+    border-radius: 6px;
+    cursor: pointer;
+}

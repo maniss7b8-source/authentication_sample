@@ -1,0 +1,117 @@
+.register_container{
+    background-color: white;
+    max-width: 600px;
+    border-radius:20px;
+    overflow: hidden;
+}
+
+.head{
+    background-color:rgb(4, 7, 93);
+    color:  white;
+   font-size: 50px;
+   padding: 10px 0px;
+   text-align: center;
+}
+
+.headname{
+    margin-bottom:20px ;
+}
+
+.inside{
+    padding:20px 40px;
+}
+
+.forinp{
+    box-sizing: border-box;
+    padding: 5px 10px;
+    display: block;
+    margin-bottom: 29px;
+    border: 2px solid rgb(214, 214, 218);
+    border-radius: 5px;
+    min-width: 400px;
+    height: 62px;
+   
+}
+
+
+.forinp .lab{
+    user-select: none;
+    position: relative;
+    top: 15px;
+    font-size: 18px;
+    left: 4px;
+    color: gray;
+    transition: all 0.2s linear;
+}
+
+.forinp .lab1act{
+    top: 0px;
+    font-size: 14px;
+    color: rgb(19, 19, 112);
+}
+
+.forinp .lab2act{
+    top: 0px;
+    font-size: 14px;
+    color: rgb(19, 19, 112);
+}
+
+.forinp .lab3act{
+    top: 0px;
+    font-size: 14px;
+    color: rgb(19, 19, 112);
+}
+
+.forinp input{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+
+.active{
+    border: 2px solid rgb(19, 19, 112);
+}
+
+.check{
+    margin: 0px 8px 0px 2px;
+    user-select: none;
+}
+
+.regsubmit{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    padding: 12px 0px;
+    border: none;
+    background-color:rgb(4, 7, 93) ;
+    color: white;
+    border-radius: 20px;
+}
+
+.regsubmit:hover{
+    background-color:rgb(8, 13, 166) ;
+    cursor: pointer;
+}
+
+.alreadyacc{
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.inside label{
+    cursor: text;
+}
+
+#chelable{
+    cursor:default;
+}
+
+.alreadyacc a{
+    font-weight: 700;
+}

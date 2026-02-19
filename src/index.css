@@ -1,0 +1,19 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: "Sanchez", serif;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+  background-color: rgb(172, 172, 172);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}

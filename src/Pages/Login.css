@@ -1,0 +1,27 @@
+.login_container{
+    background-color: white;
+    max-width: 600px;
+    border-radius:20px;
+    overflow: hidden;
+}
+
+.forgot{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    padding: 12px 0px;
+    border: none;
+    background-color:white;
+    color: rgb(4, 7, 93) ;
+    border-radius: 20px;
+    border: 1px solid rgb(4, 7, 93) ;
+}
+
+
+
+.forgot:hover{
+    background-color:whitesmoke ;
+    cursor: pointer;
+}
