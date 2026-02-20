@@ -69,7 +69,7 @@ const Login = () => {
     <div className='login_container'>
       <h1 className='head'>Goagram</h1>
       <div className='inside'>
-         <h1 className='headname'>Sign in</h1>
+         <h1 className='headname login'>Sign in</h1>
 
         <div className={`forinp ${userdata.email||focus.email?"active":""}`}>
           <label className={`lab ${userdata.email||focus.email?"lab2act":""}`} htmlFor="email">Email</label>

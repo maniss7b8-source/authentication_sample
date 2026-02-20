@@ -20,6 +20,10 @@
     border: 1px solid rgb(4, 7, 93) ;
 }
 
+.login{
+    width: 350px;
+}
+
 
 
 .forgot:hover{
