@@ -1,5 +1,6 @@
 .login_container{
     background-color: white;
+    width: 90%;
     max-width: 600px;
     border-radius:20px;
     overflow: hidden;

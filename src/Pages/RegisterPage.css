@@ -1,6 +1,8 @@
 .register_container{
     background-color: white;
+    width: 90%;
     max-width: 600px;
+    margin: 40px;
     border-radius:20px;
     overflow: hidden;
 }
@@ -14,6 +16,7 @@
 }
 
 .headname{
+    width: 350px;
     margin-bottom:20px ;
 }
 
@@ -28,7 +31,7 @@
     margin-bottom: 29px;
     border: 2px solid rgb(214, 214, 218);
     border-radius: 5px;
-    min-width: 400px;
+    width: 100%;
     height: 62px;
    
 }
@@ -114,4 +117,33 @@
 
 .alreadyacc a{
     font-weight: 700;
+}
+
+@media (max-width: 540px) {
+    #root{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .register_container{
+        width: 100%;
+    }
+
+    body {
+        padding:0px;
+    }
+    
+    .inside {
+        padding: 20px;
+    }
+
+    .head {
+        font-size: 32px;
+    }
+
+    .headname {
+        font-size: 22px;
+    }
+
 }
