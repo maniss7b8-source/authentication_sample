@@ -21,7 +21,7 @@
 }
 
 .login{
-    width: 450px;
+    width: 350px;
 }
 
 
@@ -29,4 +29,10 @@
 .forgot:hover{
     background-color:whitesmoke ;
     cursor: pointer;
+}
+
+@media (max-width:500px) {
+    .login{
+    width:350px;
+}
 }

@@ -16,7 +16,7 @@
 }
 
 .headname{
-    /* width: 350px; */
+    width: 350px;
     margin-bottom:20px ;
 }
 
@@ -119,12 +119,20 @@
     font-weight: 700;
 }
 
-@media (max-width: 540px) {
-    /* #root{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    } */
+@media (max-width: 500px) {
+    #root{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .register_container{
+        width: 100%;
+        
+    }
+
 
     body {
         padding:0px;
